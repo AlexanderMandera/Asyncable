@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>me.creepplays</groupId>
-  <artifactId>asyncable-sample</artifactId>
+  <artifactId>asyncable-mysql</artifactId>
   <version>1.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20170606.144932</timestamp>
+      <timestamp>20170606.144940</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20170606144932</lastUpdated>
+    <lastUpdated>20170606144940</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0-20170606.144932-1</value>
-        <updated>20170606144932</updated>
+        <value>1.0-20170606.144940-1</value>
+        <updated>20170606144940</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0-20170606.144932-1</value>
-        <updated>20170606144932</updated>
+        <value>1.0-20170606.144940-1</value>
+        <updated>20170606144940</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
