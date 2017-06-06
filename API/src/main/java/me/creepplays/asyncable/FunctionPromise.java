@@ -15,7 +15,11 @@ public class FunctionPromise<T, P> extends Promise<T, T> {
 
     public void run(P parameter) {
         if(this.parent == null) {
-            this.resolver.handle(this, parameter);
+            try {
+                this.resolver.handle(this, parameter);
+            } catch (Exception e) {
+                this.reject(e);
+            }
         }
     }
 
