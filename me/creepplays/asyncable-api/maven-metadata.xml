@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>me.creepplays</groupId>
-  <artifactId>asyncable-mysql</artifactId>
+  <artifactId>asyncable-api</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20170606114620</lastUpdated>
+    <lastUpdated>20170606144923</lastUpdated>
   </versioning>
 </metadata>
