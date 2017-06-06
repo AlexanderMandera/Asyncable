@@ -48,8 +48,8 @@ public class AsyncableMySQL {
         return this.prepareStatement(query).then((Function<PreparedStatement, ResultSet>) PreparedStatement::executeQuery);
     }
 
-    public AsyncPromise<PreparedStatement> update(String query) {
-        return (AsyncPromise<PreparedStatement>) this.prepareStatement(query).then((Consumer<PreparedStatement>) PreparedStatement::executeUpdate);
+    public Promise<PreparedStatement, Integer> update(String query) {
+        return this.prepareStatement(query).then((Function<PreparedStatement, Integer>) PreparedStatement::executeUpdate);
     }
 
     public AsyncPromise<PreparedStatement> prepareStatement(String query) {
